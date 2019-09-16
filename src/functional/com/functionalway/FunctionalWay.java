@@ -12,7 +12,9 @@ public class FunctionalWay {
 
         System.out.println(fw.newIfElse().apply("Hello"));
         System.out.println(fw.newIfElse().apply(null));
+
     }
+
 
     /*Return Else Condition if input is null or Convert to lower*/
     private String legacyifElse(String s) {
