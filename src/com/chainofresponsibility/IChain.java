@@ -1,4 +1,4 @@
-package com.behavioralpatterns.chainofresponsibility;
+package com.chainofresponsibility;
 
 /* This interface will acts as a chain link.*/
 public interface IChain {
