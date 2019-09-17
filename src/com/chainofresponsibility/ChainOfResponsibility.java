@@ -1,4 +1,4 @@
-package com.behavioralpatterns.chainofresponsibility;
+package com.chainofresponsibility;
 
 /* Configure and calling of Chain of Responsibility */
 public class ChainOfResponsibility {
