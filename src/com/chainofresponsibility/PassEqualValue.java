@@ -1,0 +1,23 @@
+package com.behavioralpatterns.chainofresponsibility;
+
+/* This class will accept only equal values.*/
+public class PassEqualValue implements IChain{
+
+	/*Java Dependency Injection*/
+	private IChain Ichain;
+	
+	public void setNext(IChain c) {
+		Ichain = c;	
+	}
+
+	public void process(PassInputValues l_objRequest) {
+		if(l_objRequest.getL_iNumber() == 0) {
+			System.out.println("Zero Value is : " + l_objRequest.getL_iNumber());
+		}
+		else {
+			Ichain.process(l_objRequest);
+		}
+		
+	}
+
+}
