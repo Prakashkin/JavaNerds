@@ -1,4 +1,4 @@
-package com.behavioralpatterns.chainofresponsibility;
+package com.chainofresponsibility;
 
 /* This class will acts as a request object.*/
 public class PassInputValues {
