@@ -1,4 +1,4 @@
-package com.behavioralpatterns.chainofresponsibility.onetoone;
+package com.chainofresponsibility.onetoone;
 
 /* This class will accept only negative values.*/
 public class PassNegativeValue implements IChain{
