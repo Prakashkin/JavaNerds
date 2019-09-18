@@ -1,4 +1,4 @@
-package com.chainofresponsibility;
+package com.behavioralpatterns.chainofresponsibility.onetoone;
 
 /* Configure and calling of Chain of Responsibility */
 public class ChainOfResponsibility {
@@ -14,7 +14,7 @@ public class ChainOfResponsibility {
 		
 		//Calling Chain of Responsibility
 		c1.process(new PassInputValues(-2));
-		c1.process(new PassInputValues(24));
-		c1.process(new PassInputValues(0));
+		c2.process(new PassInputValues(24));
+		c1.process(new PassInputValues(10));
 	}
 }

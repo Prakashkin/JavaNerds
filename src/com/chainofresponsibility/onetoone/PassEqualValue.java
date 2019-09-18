@@ -1,4 +1,4 @@
-package com.chainofresponsibility;
+package com.behavioralpatterns.chainofresponsibility.onetoone;
 
 /* This class will accept only equal values.*/
 public class PassEqualValue implements IChain{

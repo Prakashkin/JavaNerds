@@ -1,4 +1,4 @@
-package com.chainofresponsibility;
+package com.behavioralpatterns.chainofresponsibility.onetoone;
 
 /* This class will acts as a request object.*/
 public class PassInputValues {
