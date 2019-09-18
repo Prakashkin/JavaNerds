@@ -1,4 +1,4 @@
-package com.behavioralpatterns.chainofresponsibility.onetoone;
+package com.chainofresponsibility.onetoone;
 
 /* Configure and calling of Chain of Responsibility */
 public class ChainOfResponsibility {
