@@ -1,4 +1,4 @@
-package com.behavioralpatterns.chainofresponsibility.onetoone;
+package com.chainofresponsibility.onetoone;
 
 /* This interface will acts as a chain link.*/
 public interface IChain {
