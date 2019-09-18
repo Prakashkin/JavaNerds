@@ -1,4 +1,4 @@
-package com.behavioralpatterns.chainofresponsibility.onetomany;
+package com.chainofresponsibility.onetomany;
 
 public class ChainOfResponsibility {
 	
