@@ -1,4 +1,4 @@
-package com.behavioralpatterns.chainofresponsibility.onetomany;
+package com.chainofresponsibility.onetomany;
 
 /* This interface will acts as a chain link.*/
 public interface RupeesHandler {
